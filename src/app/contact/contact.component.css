@@ -1,0 +1,8 @@
+.contact {
+  background-color: cornflowerblue;
+  text-align: left;
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  color: ghostwhite;
+}

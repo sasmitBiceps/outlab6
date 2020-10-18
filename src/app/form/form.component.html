@@ -1,0 +1,36 @@
+
+<p>
+  <label>
+    Name:
+  </label>
+    <input type="text" [formControl]="name">
+
+</p>
+<p>
+  <label>
+    Email:
+    <input type="email" [formControl]="email">
+  </label>
+</p>
+<p>
+  <label>
+    Feedback: <br>
+    <input type="radio" [formControl]="feedback" value="Great" id="Great">
+    <label for="Great">Great</label>
+    <input type="radio" [formControl]="feedback" value="Okay" id="Okay">
+    <label for="OK">Okay</label>
+    <input type="radio" [formControl]="feedback" value="Not Good" id="Not Good">
+    <label for="Not Good">Not Good</label><br>
+  </label>
+</p>
+<p>
+  <label>
+    Comments:
+    
+    <textarea [formControl]="comment" rows="4" cols="50" ></textarea>
+  </label>
+</p>
+<p>
+  <button type="button" (click)="onClick()">Submit</button>
+</p>
+

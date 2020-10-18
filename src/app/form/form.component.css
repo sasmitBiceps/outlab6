@@ -1,0 +1,25 @@
+p {
+  background-color: cornflowerblue;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  padding-left: 20%;
+  color: ghostwhite;
+  align-content: center;
+  justify-content: center;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+
+input[type="email"] {
+  width: 40%;
+}
+
+input[type="text"] {
+  width: 40%;
+}
+
+textarea {
+  width: 40%;
+}
